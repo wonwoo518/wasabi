@@ -9,6 +9,7 @@ target 'Wasabi' do
   # Pods for Wasabi
     pod 'RxSwift'
     pod 'RxCocoa'
+    pod 'SwiftProtobuf', '~> 1.0.1'
 
   target 'WasabiUITests' do
     inherit! :search_paths
